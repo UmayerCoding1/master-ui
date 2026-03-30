@@ -1,6 +1,7 @@
 import GridCard from '@/components/card/grid-card';
 import GridBoxLayout from '@/components/grid-box-layout';
 import GridLayout from '@/components/grid-layout';
+import { ShaderTestimonial } from '@/components/shader-testimonial';
 import SkillsArcAnimation from '@/components/SkillsArcAnimation';
 
 
@@ -15,8 +16,9 @@ const page = () => {
       {/* <GridBoxLayout/> */}
       {/* <GridCard/> */}
       {/* <PathDrawing/> */}
-      <SkillsArcAnimation />
-      <Text />
+      {/* <SkillsArcAnimation /> */}
+      <ShaderTestimonial />
+      {/* <Text /> */}
     </>
   );
 };
